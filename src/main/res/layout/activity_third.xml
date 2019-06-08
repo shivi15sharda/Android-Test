@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Third">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:text="Hello Hello!!"
+        android:textSize="33sp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewEnd"
+        android:text="Bye Bye!"
+        android:textSize="33sp"/>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Third">
+
+        <TextView
+            android:layout_width="284dp"
+            android:layout_height="318dp"
+            android:text="Second"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="236dp"
+            android:layout_height="155dp"
+            android:text="Third"
+            android:textAlignment="viewEnd"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="381dp"
+            android:layout_height="266dp"
+            android:text="Fourth"
+            android:textAlignment="textEnd"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    </LinearLayout>
