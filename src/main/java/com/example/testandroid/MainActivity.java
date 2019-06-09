@@ -15,7 +15,6 @@ import java.io.Serializable;
 public class MainActivity extends AppCompatActivity {
     Spinner s1,s2,s3,s4,s5,s6,s7,s8,s9,s10;
     Button b1;
-    private Second objSec;
     String data1[]={"Dog","Cat"};
     String data2[]={"Lion","Rabbit"};
     String data3[]={"Fox","Donkey"};
@@ -61,7 +60,6 @@ public class MainActivity extends AppCompatActivity {
         s8.setAdapter(a8);
         s9.setAdapter(a9);
         s10.setAdapter(a10);
-        objSec=new Second();
         s1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
@@ -256,7 +254,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 Intent i=new Intent( MainActivity.this,Second.class);
-                i.putExtra("Second", (Serializable) objSec);
                 startActivity(i);
             }
         });
