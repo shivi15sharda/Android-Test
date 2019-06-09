@@ -1,35 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Second"
-    android:orientation="horizontal">
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="395dp"
+        android:layout_height="91dp"
+        android:text=" Snigdha Kashyap "
+        android:textSize="35sp"
+        android:textColor="@color/colorAccent"
+        />
 
     <TextView
-        android:id="@+id/txt"
-        android:textSize="29sp"
-        android:hint="Second"
-        android:layout_width="199dp"
-        android:layout_height="318dp" />
+        android:id="@+id/dates"
+        android:layout_width="278dp"
+        android:layout_height="66dp"
+        android:layout_below="@id/name"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/times"
+        android:text="My Name"
+        android:textSize="33sp"/>
 
     <TextView
-        android:id="@+id/txt2"
-        android:layout_width="400dp"
-        android:layout_height="175dp"
-        android:textSize="29sp"
-        android:hint="first"
-        android:textAlignment="viewEnd"/>
+        android:id="@id/times"
+        android:layout_width="105dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/name"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="0dp"
+        android:text="Btech CS"
+        android:textSize="30sp" />
 
     <Button
-        android:id="@+id/b2"
-        android:layout_width="123dp"
-        android:layout_height="93dp"
-        android:layout_alignLeft="@id/b2"
-        android:layout_marginLeft="0dp"
-        android:textSize="26sp"
-        android:text="Now here..." />
-
-
+        android:layout_width="141dp"
+        android:layout_height="72dp"
+        android:layout_below="@id/times"
+        android:layout_alignParentLeft="true"
+        android:text="Done"
+        android:id="@+id/b2"/>
 </RelativeLayout>
