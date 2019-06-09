@@ -1,3 +1,4 @@
+//linear layout(with 10 lists and spinners)
 package com.example.testandroid;
 
 import android.content.Intent;
