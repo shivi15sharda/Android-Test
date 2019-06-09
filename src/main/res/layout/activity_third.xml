@@ -9,41 +9,74 @@
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="69dp"
+        android:layout_height="63dp"
         android:text="Hello Hello!!"
         android:textSize="33sp" />
+
     <TextView
+        android:layout_width="389dp"
+        android:layout_height="63dp"
+        android:text="Welcome!!"
+        android:textStyle="bold"
+        android:textAlignment="viewEnd"
+        android:textSize="33sp" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="312dp"
+        android:layout_height="361dp">
+
+
+        <EditText
+            android:id="@+id/text1"
+            android:layout_width="350dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginRight="18dp"
+            android:background="#fff"
+            android:padding="8dp"
+            android:textColor="@color/colorPrimary"
+            android:text="Snigdha Kashyap"
+            android:textSize="32sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/text2"
+            android:layout_width="346dp"
+            android:layout_height="79dp"
+            android:layout_below="@+id/text1"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="18dp"
+            android:background="#fff"
+            android:padding="8dp"
+            android:textColor="@color/colorPrimary"
+            android:text="Sharda University"
+            android:textSize="32sp"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+    <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:textAlignment="viewEnd"
-        android:text="Bye Bye!"
-        android:textSize="33sp"/>
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".Third">
+        android:orientation="horizontal">
 
         <TextView
-            android:layout_width="284dp"
-            android:layout_height="318dp"
-            android:text="Second"
-            android:textSize="30sp" />
-
+            android:layout_width="200dp"
+            android:layout_height="101dp"
+            android:text="SET"
+            android:textSize="36sp"
+            android:textAlignment="center"/>
         <TextView
-            android:layout_width="236dp"
-            android:layout_height="155dp"
-            android:text="Third"
-            android:textAlignment="viewEnd"
-            android:textSize="30sp" />
+            android:layout_width="200dp"
+            android:layout_height="101dp"
+            android:text="Cyber Security"
+            android:textSize="29sp"
+            android:textAlignment="center"/>
 
-        <TextView
-            android:layout_width="381dp"
-            android:layout_height="266dp"
-            android:text="Fourth"
-            android:textAlignment="textEnd"
-            android:textSize="30sp" />
-    </RelativeLayout>
+
+    </LinearLayout>
 
     </LinearLayout>
